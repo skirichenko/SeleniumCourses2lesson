@@ -54,7 +54,6 @@ public class TestCredit {
             return false;
         }
     }
-
     private boolean isAlertPresent() {
         try {
             driver.switchTo().alert();
