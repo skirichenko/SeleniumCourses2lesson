@@ -63,6 +63,8 @@ public class TestCredit {
         }
     }
 
+
+
     private String closeAlertAndGetItsText() {
         try {
             Alert alert = driver.switchTo().alert();
