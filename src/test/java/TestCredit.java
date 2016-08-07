@@ -35,6 +35,8 @@ public class TestCredit {
         assertEquals(driver.findElement(By.cssSelector("div.resultSum")).getText(), "37777.78");
     }
 
+
+
     @AfterClass(alwaysRun = true)
     public void tearDown() throws Exception {
         driver.quit();

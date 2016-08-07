@@ -61,6 +61,8 @@ public class TestDeposit {
         }
     }
 
+
+
     private String closeAlertAndGetItsText() {
         try {
             Alert alert = driver.switchTo().alert();
