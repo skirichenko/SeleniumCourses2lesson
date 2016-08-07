@@ -33,6 +33,7 @@ public class TestCredit {
         new Select(driver.findElement(By.id("type"))).selectByVisibleText("Классический (% на остаток задолженности)");
         driver.findElement(By.cssSelector("#credit_form > input.btn")).click();
         assertEquals(driver.findElement(By.cssSelector("div.resultSum")).getText(), "37777.78");
+
     }
 
 
